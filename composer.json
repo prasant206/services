@@ -1,5 +1,5 @@
 {
-    "name": "nest/services",
+    "name": "nest/module-services",
     "description": "services files",
     "type": "magento2-component",
     "require": {
@@ -10,7 +10,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Magento\\Contact\\": ""
+            "Nest\\Services\\": ""
         }
     }
 }

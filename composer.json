@@ -1,0 +1,16 @@
+{
+    "name": "nest/services",
+    "description": "services files",
+    "type": "magento2-component",
+    "require": {
+        "magento/magento-composer-installer": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magento\\Contact\\": ""
+        }
+    }
+}
